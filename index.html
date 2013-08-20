@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="project">
+  <head>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.0rc1/angular-route.min.js"></script>
+    <script src="/angular-html5/js/project.js"></script>
+
+    <!-- meta name="fragment" content="!" -->
+    <base href="/angular-html5/">
+
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Angular HTML5</h2>
+      <p>
+        <a href="#!/">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="#!/videos">Videos</a>&nbsp;&nbsp;&nbsp;
+        <a href="#!/videos/slow">Slow Videos</a>&nbsp;&nbsp;&nbsp;
+        <a href="#!/article/hello-world.html">Article</a>
+      </p>
+      <div ng-view></div>
+    </div>
+  </body>
+</html>
