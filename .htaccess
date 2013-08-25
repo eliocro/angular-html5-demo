@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /angular-html5/
+RewriteBase /angular-html5-demo/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
